@@ -851,9 +851,9 @@
 
             if (!DB.settings) {
                 DB.settings = {
-                    kamadNama: "H. Ahmad Rustam, S.Ag., M.S.I.",
+                    kamadNama: "Beyrul An'am, S.Hum",
                     kamadNip: "197410122005011003",
-                    tglRapor: "Kudus, 20 Juni 2026",
+                    tglRapor: "Masaran, 20 Juni 2026",
                     bobot: { harian: 50, praktik: 20, asas: 30 }
                 };
             }
@@ -1414,8 +1414,8 @@
             document.getElementById('print-ekstra-nama').innerText = s.ekstraNama ? s.ekstraNama.toUpperCase() : "-";
             document.getElementById('print-ekstra-nilai').innerText = s.ekstraNilai || "-";
 
-            document.getElementById('print-tanggal-rapor').innerText = DB.settings?.tglRapor || "Kudus, 20 Juni 2026";
-            document.getElementById('print-kamad-nama').innerText = DB.settings?.kamadNama || "H. Ahmad Rustam, S.Ag., M.S.I.";
+            document.getElementById('print-tanggal-rapor').innerText = DB.settings?.tglRapor || "Sragen, 20 Juni 2026";
+            document.getElementById('print-kamad-nama').innerText = DB.settings?.kamadNama || "Beyrul An'am, S.Hum";
             document.getElementById('print-kamad-nip').innerText = DB.settings?.kamadNip ? `NIP. ${DB.settings.kamadNip}` : "NIP. -";
             document.getElementById('print-sig-walikelas').innerText = s.walikelas || "-";
 
